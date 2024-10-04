@@ -8,15 +8,15 @@ def main():
 
     # TODO: use iter to create an iterator over a collection
     i = iter(days)
-    #print(next(i))
-    #print(next(i))
-    #print(next(i))
+    print(next(i))
+    print(next(i))
+    print(next(i))
 
 
     # TODO: iterate using a function and a sentinel
-    #with open("testfile.txt","r") as fp:
-    #    for line in iter(fp.readline,''):
-    #        print(line)
+    with open("testfile.txt","r") as fp:
+        for line in iter(fp.readline,''):
+            print(line)
 
     # TODO: use regular interation over the days
     for m in range(len(days)):
